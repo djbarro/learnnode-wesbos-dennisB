@@ -18,6 +18,8 @@ mongoose.connection.on('error', (err) => {
 });
 
 // READY?! Let's go!
+require('./models/Store');
+//Import all models above here
 
 
 // Start our app!

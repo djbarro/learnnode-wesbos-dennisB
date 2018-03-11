@@ -12,6 +12,7 @@
   margin-right: 1rem;
   &__choice {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     input {
