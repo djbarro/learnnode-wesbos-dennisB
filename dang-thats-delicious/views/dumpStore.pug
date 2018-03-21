@@ -1,0 +1,7 @@
+extends layout
+block content
+  p hello from dumpStore.pug
+  pre= h.dump(store)
+  pre= h.dump({ham : 'hot dog'})
+  +dumpStore()
+  p dumpStore.pug
